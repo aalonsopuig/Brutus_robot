@@ -1,0 +1,265 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_BRUTUS_DIALOG DIALOGEX 0, 0, 407, 326
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Brutus"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Quit",IDOK,341,59,59,23
+    CONTROL         "",IDC_CANVAS,"Static",SS_GRAYRECT | SS_SUNKEN | 
+                    WS_BORDER,239,190,126,53,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "STOP",IDC_STOP,276,296,89,17,0,WS_EX_DLGMODALFRAME
+    EDITTEXT        IDC_Speed,213,298,23,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_Direc,372,170,19,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Speed",IDC_STATIC,238,301,22,8
+    LTEXT           "Direc",IDC_STATIC,373,186,18,8
+    CONTROL         "Slider1",IDC_AccelSlider,"msctls_trackbar32",TBS_VERT | 
+                    TBS_BOTH | WS_TABSTOP,368,264,28,50
+    EDITTEXT        IDC_Accel,372,247,19,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    RTEXT           "Accel",IDC_STATIC,371,234,19,8
+    EDITTEXT        IDC_TempMD03_1,163,108,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Temperature",IDC_STATIC,163,99,41,8,WS_DISABLED
+    EDITTEXT        IDC_CurrMD03_1,209,108,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Current",IDC_STATIC,209,99,24,8,WS_DISABLED
+    PUSHBUTTON      "Update car values",IDC_UPDATE,341,33,59,23,BS_MULTILINE
+    EDITTEXT        IDC_TempSVD01,163,66,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Temperature",IDC_STATIC,163,57,41,8,WS_DISABLED
+    EDITTEXT        IDC_CurrSVD01,209,66,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Current",IDC_STATIC,209,57,24,8,WS_DISABLED
+    GROUPBOX        "Steering Module SVD01",IDC_STATIC,155,49,99,40
+    GROUPBOX        "Engine Driver MD03",IDC_STATIC,155,89,99,41
+    CONTROL         "Slider1",IDC_SpeedSlider,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | WS_TABSTOP,211,189,28,106
+    CONTROL         "Slider1",IDC_DirecSlider,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,235,162,130,27
+    GROUPBOX        "Movement Canvas",IDC_MovCanv,203,152,197,167
+    CONTROL         "",IDC_CANVAS2,"Static",SS_GRAYRECT | SS_SUNKEN | 
+                    WS_BORDER,43,190,126,104,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "Measure",IDC_ChkSonar,95,298,40,14
+    EDITTEXT        IDC_YSonar,17,298,23,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    EDITTEXT        IDC_XSonar,176,170,19,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Y pos",IDC_STATIC,43,301,19,8
+    CTEXT           "X pos",IDC_STATIC,177,186,18,8
+    EDITTEXT        IDC_DistSonar,140,298,27,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY | ES_NUMBER
+    LTEXT           "Cm",IDC_STATIC,172,300,11,8
+    CONTROL         "Slider1",IDC_YSonarSlider,"msctls_trackbar32",
+                    TBS_AUTOTICKS | TBS_VERT | WS_TABSTOP,15,189,28,106
+    CONTROL         "Slider1",IDC_XSonarSlider,"msctls_trackbar32",
+                    TBS_AUTOTICKS | WS_TABSTOP,39,162,130,27
+    GROUPBOX        "Sonar Canvas",IDC_SonarCanv,7,152,197,167
+    LTEXT           "BRUTUS v 1.0",IDC_STATIC,13,16,68,9,WS_DISABLED
+    LTEXT           "by Alejandro Alonso-Puig",IDC_STATIC,13,26,85,9,
+                    WS_DISABLED
+    LTEXT           "February 2.004",IDC_STATIC,13,37,86,9,WS_DISABLED
+    LTEXT           "mundobot.com",IDC_STATIC,13,47,85,9,WS_DISABLED
+    GROUPBOX        "",IDC_STATIC,152,14,106,120
+    CONTROL         "Left",IDC_BumpLeft,"Button",BS_AUTOCHECKBOX | BS_CENTER | 
+                    BS_VCENTER | BS_PUSHLIKE | WS_DISABLED | WS_TABSTOP,162,
+                    32,43,11,WS_EX_RIGHT
+    CONTROL         "Right",IDC_BumpRight,"Button",BS_AUTOCHECKBOX | 
+                    BS_CENTER | BS_VCENTER | BS_PUSHLIKE | WS_DISABLED | 
+                    WS_TABSTOP,206,32,42,11
+    GROUPBOX        "Bumpers",IDC_STATIC,155,20,99,28
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,126,41,19,28
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,145,52,7,6
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,126,100,19,28
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,145,111,7,6
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,263,41,19,28
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,257,52,7,6
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,263,100,19,28
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,257,111,7,6
+    GROUPBOX        "",IDC_STATIC,7,7,93,55
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,151,7,106,4
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,178,7,4,11
+    CONTROL         "",IDC_STATIC,"Static",SS_GRAYRECT,226,7,4,11
+    PUSHBUTTON      "Autonomous control program",IDC_AUTO1,341,7,59,23,
+                    BS_MULTILINE
+    CONTROL         "",IDC_CANVAS3,"Static",SS_BLACKRECT | SS_SUNKEN | 
+                    WS_BORDER,239,242,126,53,WS_EX_CLIENTEDGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Brutus MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Brutus\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Brutus.EXE\0"
+            VALUE "ProductName", "Brutus Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_BRUTUS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 400
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 319
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Modern) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESN)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, SUBLANG_SPANISH_MODERN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Brutus.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Brutus.ico"
+#endif    // Spanish (Modern) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Brutus.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

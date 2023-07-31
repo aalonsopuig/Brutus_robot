@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Brutus - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "c:\windows\TEMP\RSPB2A4.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Brutus.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\Brutus.cpp"
+"C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\BrutusDlg.cpp"
+]
+Creating command line "cl.exe @c:\windows\TEMP\RSPB2A4.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Brutus.pdb" /debug /machine:I386 /out:"Debug/Brutus.exe" /pdbtype:sept  ".\Debug\Brutus.obj" ".\Debug\BrutusDlg.obj" ".\Debug\I2c.obj" ".\Debug\StdAfx.obj" ".\Debug\Brutus.res" "
+<h3>Output Window</h3>
+Compiling...
+Brutus.cpp
+BrutusDlg.cpp
+C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\BrutusDlg.cpp(190) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\BrutusDlg.cpp(197) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\BrutusDlg.cpp(267) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\BrutusDlg.cpp(274) : warning C4244: '=' : conversion from 'long' to 'unsigned char', possible loss of data
+C:\Mis documentos\Privado\Robotica\Programacion\VisualC++\Brutus\BrutusDlg.cpp(550) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Brutus.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>
