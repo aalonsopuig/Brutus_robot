@@ -6,11 +6,10 @@
 <meta name="ProgId" content="FrontPage.Editor.Document">
 </head>
 
-<font size="6">Brutus</font><font size="4">&nbsp;</font>
-      </i></b>
+<font size="4"><b><i>BRUTUS robot&nbsp;</i></b></font>
       <p>by Alejandro Alonso Puig<br>
-      Enero 2.004<br>
-
+      January 2.004<br>
+<hr>
 <p align="justify">I made Brutus with the idea of building a modular robot, as a platform to prove new experimental modules.<br />
 <br />
 The version 1.0 that is in this technical report refers to the simplest version of the implementation of the robot, in which it has wireless remote control of navigation, as well as a simple program for autonomous navigation.<br /></p>
