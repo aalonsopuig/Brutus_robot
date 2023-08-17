@@ -37,7 +37,8 @@ Some basic characteristics that define Brutus v 1.0 are the following:<br />
 </ul>
 <br />
 <div class="separator" style="clear: both; text-align: center;">
-<a href="http://2.bp.blogspot.com/-p6THs-XQ0Zk/Uu4ijIGJIuI/AAAAAAAAJfo/LVEL2jRiVJw/s1600/brutus3.jpg" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="300" src="http://2.bp.blogspot.com/-p6THs-XQ0Zk/Uu4ijIGJIuI/AAAAAAAAJfo/LVEL2jRiVJw/s1600/brutus3.jpg" width="400" /></a></div></td>
+<p align="center"><img border="0" src="http://2.bp.blogspot.com/-p6THs-XQ0Zk/Uu4ijIGJIuI/AAAAAAAAJfo/LVEL2jRiVJw/s1600/brutus3.jpg" width="436" ></p>
+</a></div></td>
 <br />
 In this work there will be mention to all the mechanical, electronic and programming aspects, as well as conclusions of the experience.<br />
 <br />
